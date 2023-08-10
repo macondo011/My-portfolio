@@ -12,11 +12,13 @@ export function About(){
                     <p>
                         <span className='text-green-400'>marcosbautista $</span> cat aboutmarcos <br/> 
                     </p>
-                    <p className='py-2'>
-                        <span className='text-green-400' >aboutmarcos (main) $</span> Hello! I'm Marcos.  
-                        I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long 
-                        walks on the beach, and I believe artificial intelligence will inevitably rule 
-                        us all one day. You should hire me!. <b className='animate-ping'>_</b>
+                    <p className='py-2'>Hello! I'm Marcos Bautista, front-end developer. 
+                                        I trained in software development (MERN stack) at the University 
+                                        of Antioquia. I enjoy turning ideas into engaging web experiences. 
+                                        Passionate about design and technology, I believe in collaboration 
+                                        to create functional and visually striking products. Always seeking 
+                                        new opportunities and continuous learning. Let's connect and bring the 
+                                        digital vision to life.<b className='animate-ping'>_</b>
                     </p>
                 </article>
              </section>
