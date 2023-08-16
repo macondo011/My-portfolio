@@ -13,9 +13,7 @@ function App() {
 			<Bubble/>
 			<About />
 			<Projects />
-			<Footer />
-			
-			
+			<Footer />	
 		</>
 	)
 }

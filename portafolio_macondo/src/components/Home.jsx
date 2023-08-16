@@ -37,9 +37,15 @@ export function Home() {
 				</article>
 			</main>
 			<div className="flex justify-center items-center gap-5 mx-2 bg-gradient-to-r from-emerald-400 to-blue-500 pb-16">
+				<a href='https://github.com/macondo011' alt='logo github' target="_blank" rel="noreferrer">
 				<img className="h-14 w-14" src="github.png" alt="logo github" />
+				</a>
+				<a href='https://twitter.com/macondo011' alt='logo de twitter' target="_blank" rel="noreferrer">
 				<img className="h-14 w-14" src="twitter.png" alt="logo de twitter" />
+				</a>
+				<a href='https://www.instagram.com/macondo011/' alt='logo de instagram' target="_blank" rel="noreferrer">
 				<img className="h-14 w-14" src="instagram.png" alt="logo instagram" />
+				</a>
 			</div>
 		</>
 	)
