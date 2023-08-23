@@ -17,13 +17,13 @@ export function Home() {
 				</section>
 				<article className=" pl-1 sm:pl-4">
 					<h1 className="text-3xl font-mono py-2 sm:text-6xl">
-						Hi, i am{' '}
+						Hi, i&apos;m{' '}
 						<strong className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-chicken to-lime">
 							Marcos
 						</strong>
 						👌
 					</h1>
-					<p className="text-2xl sm:text-4xl">I am a Front End Developer.</p>
+					<p className="text-2xl sm:text-4xl">I&apos;m a Front End Developer.</p>
 
 					<ul className="text-xl">
 						<li>
