@@ -3,7 +3,7 @@ export function About() {
 		<>
 			<div
 				id="About"
-				className="flex flex-col justify-center items-center text-center bg-gradient-to-r from-fuchsia-400 via-purple-500 to-indigo-500 mx-2 py-1 md:py-14 gap-8"
+				className="flex flex-col justify-center items-center text-center bg-gradient-to-r from-neutral-800 via-gray-800 to-neutral-950 mx-2 py-1 border-dotted border md:py-14 gap-8"
 			>
 				<section className=" bg-slate-800 shadow-lg shadow-indigo-500/40 rounded-lg w-11/12 md:w-2/4 h-auto my-12">
 					<div className="flex h-8 bg-slate-400 py-2 px-1 gap-2 rounded-t-lg ">

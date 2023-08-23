@@ -7,7 +7,7 @@ export function Header() {
 	return (
 		<div className="relative">
 			<div className="fixed top-0 left-0 right-0">
-				<nav className="triangle flex items-center justify-center bg-blueberry text-white text-xl  w-auto sm:text-4xl h-20 mx-2 px-1 shadow">
+				<nav className="border-dotted border flex items-center justify-center bg-blueberry text-white text-xl  w-auto sm:text-4xl h-20 mx-2 px-1 shadow">
 					<ul className="flex gap-0 font-mono sm:gap-4">
 						<li>
 							<h2 className="font-bongee">Macondev</h2>
