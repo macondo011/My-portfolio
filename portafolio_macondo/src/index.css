@@ -9,7 +9,13 @@
     color: canvasText;
     color-scheme: dark;
 }
-
+.grid-background {
+  
+  background-image: 
+    linear-gradient(rgba(194, 185, 185, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(196, 192, 192, 0.1) 1px, transparent 1px); 
+  background-size: 33px 33px;
+}
   
   .burbuja{
     border-radius: 50%;
@@ -21,6 +27,7 @@
     
     animation: burbujas 2s linear infinite ;
 }
+
 
 .burbuja:nth-child(1){
     width: 80px;
@@ -131,5 +138,22 @@
   }
 }
   
+  
+
+
+
+
+
+
+
+
+ 
+
+   
+
+
+
+
+
 
 

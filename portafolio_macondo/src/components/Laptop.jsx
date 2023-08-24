@@ -4,7 +4,7 @@ export  function Laptop({imageSrc}) {
     
   return (
     <section>
-    <div className='mx-auto w-80 h-auto border-x-2 border-t-4 border-0 border-slate-400 rounded-t-lg md:w-96'>
+    <div className='mx-auto w-80 h-auto border-x-2 border-t-4 border-0 border-slate-400 border-t-slate-500 rounded-t-lg md:w-96'>
         <div className='border-solid  border-8 border-black rounded-t  h-52 w-auto md:w-[23.7rem]'>
             <img src={imageSrc} alt="image of project"  className='object-cover w-full  h-[12rem]'/>
         </div>

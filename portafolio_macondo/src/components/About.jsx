@@ -13,7 +13,7 @@ export function About() {
 					</div>
 					<article className="text-left text-lg font-montserrat sm:text-2xl py-8 px-8">
 						<p>
-							<span className="text-green-400">marcosbautista $</span> cat
+							<span className="text-lime">marcosbautista $</span> cat
 							aboutmarcos <br />
 						</p>
 						<p className="py-2">
@@ -35,15 +35,15 @@ export function About() {
 					</div>
 					<article className="w-auto text-left text-lg font-montserrat sm:text-2xl py-8 px-8">
 						<p>
-							<span className="text-green-400">marcosbautista $</span> cd
+							<span className="text-lime">marcosbautista $</span> cd
 							skills/tools
 							<br />
 						</p>
 						<p className="py-2">
-							<span className="text-green-400">skills/tools (main) $</span> ls
+							<span className="text-lime">skills/tools (main) $</span> ls
 							<br />
 						</p>
-						<p className="text-green-400 pb-4">Proficient With</p>
+						<p className="text-lime pb-4">Proficient With</p>
 						<ul className="grid grid-cols-2 gap-4">
 							<li className="flex hover:-translate-y-1 hover:scale-100 gap-1">
 								<img
@@ -103,12 +103,12 @@ export function About() {
 					</div>
 					<article className="text-left text-lg font-montserrat sm:text-2xl py-8 px-8">
 						<p>
-							<span className="text-green-400">marcosbautista $</span> cd
+							<span className="text-lime">marcosbautista $</span> cd
 							hobbies/interests
 							<br />
 						</p>
 						<p className="py-2">
-							<span className="text-green-400">hobbies/interests (main) $</span>
+							<span className="text-lime">hobbies/interests (main) $</span>
 							ls <br />
 						</p>
 

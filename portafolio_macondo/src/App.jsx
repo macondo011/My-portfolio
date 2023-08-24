@@ -5,6 +5,8 @@ import { Home } from './components/Home'
 import { Projects } from './components/Projects'
 import { Bubble } from './components/Bubble'
 
+
+
 function App() {
 	return (
 		<>
@@ -14,6 +16,7 @@ function App() {
 			<About />
 			<Projects />
 			<Footer />	
+			
 		</>
 	)
 }

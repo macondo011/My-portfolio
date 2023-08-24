@@ -18,7 +18,7 @@ export function Home() {
 				<article className=" pl-1 sm:pl-4">
 					<h1 className="text-3xl font-mono py-2 sm:text-6xl">
 						Hi, i&apos;m{' '}
-						<strong className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-chicken to-lime">
+						<strong className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-graper via-rose to-pinkpanter">
 							Marcos
 						</strong>
 						👌
@@ -30,7 +30,7 @@ export function Home() {
 							<p>☕fueled by coffee</p>
 						</li>
 						<li>
-							<p>🗺️based in the Colombia </p>
+							<p>🌎based in the Colombia </p>
 						</li>
 						<li>
 							<p>📬macondo777@hotmail.com</p>

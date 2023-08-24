@@ -19,7 +19,10 @@ export default {
       colors:{
         blueberry:'#02142e',
         chicken:'#F6FF01',
-        lime:'#A6FF00'
+        lime:'#A6FF00',
+        rose:'#FC2947',
+        pinkpanter:'#FF55BB',
+        graper:'#7E22CE'
       }
     },
   },
