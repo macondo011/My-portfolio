@@ -1,3 +1,4 @@
+import { IconBrandLinkedin, IconBrandX, IconBrandInstagram, IconBrandGithub } from '@tabler/icons-react'
 export function Home() {
 	return (
 		<>
@@ -21,7 +22,7 @@ export function Home() {
 						<strong className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-graper via-rose to-pinkpanter">
 							Marcos
 						</strong>
-						👌
+						<span className="animate-wiggle">👌</span>
 					</h1>
 					<p className="text-2xl sm:text-4xl">I&apos;m a Front End Developer.</p>
 
@@ -40,13 +41,16 @@ export function Home() {
 			</main>
 			<div className="flex justify-center items-center gap-5 mx-2 pb-16 border-dotted  border-r border-l bg-gradient-to-r from-neutral-800  via-gray-800 to-neutral-950">
 				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900 ' href='https://github.com/macondo011' alt='logo github' target="_blank" rel="noreferrer">
-				<img className="h-14 w-14" src="github.png" alt="logo github" />
+				<IconBrandGithub color='black' size={58}/>
 				</a>
 				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900'  href='https://twitter.com/macondo011' alt='logo de twitter' target="_blank" rel="noreferrer">
-				<img className="h-14 w-14" src="twitter.png" alt="logo de twitter" />
+				<IconBrandX color='black' size={58}/>
 				</a>
 				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900' href='https://www.instagram.com/macondo011/' alt='logo de instagram' target="_blank" rel="noreferrer">
-				<img className="h-14 w-14" src="instagram.png" alt="logo instagram" />
+				<IconBrandInstagram color='black' size={58}/>
+				</a>
+				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900' href='https://www.instagram.com/macondo011/' alt='logo de instagram' target="_blank" rel="noreferrer">
+				<IconBrandLinkedin color='black' size={58}/>
 				</a>
 			</div>
 		</>

@@ -1,3 +1,5 @@
+import { IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandJavascript, IconBrandCss3, 
+	IconBrandHtml5, IconBrandGit, IconBrandGithub, IconChessBishopFilled, IconMusicHeart, IconBrandTypescript } from '@tabler/icons-react'
 export function About() {
 	return (
 		<>
@@ -46,51 +48,33 @@ export function About() {
 						<p className="text-lime pb-4">Proficient With</p>
 						<ul className="grid grid-cols-2 gap-4">
 							<li className="flex hover:-translate-y-1 hover:scale-100 gap-1">
-								<img
-									className="h-4 sm:h-6 w-6"
-									src="js.png"
-									alt="logo javascript"
-								/>
+								<IconBrandJavascript color='#F0DB4F'/>
 								JavaScript
 							</li>
 							<li className="flex hover:-translate-y-1 hover:scale-100">
-								<img
-									className="h-6 sm:h-8 w-8"
-									src=" git.png"
-									alt="logo de git"
-								/>
-								git
+							<IconBrandTypescript color='#007acc'/> TypeScript
 							</li>
 							<li className="flex hover:-translate-y-1 hover:scale-100">
-								<img className="h-6 sm:h-8" /> React
+							<IconBrandGit color='#F1502F'/> Git
+							</li>
+							<li className="flex hover:-translate-y-1 hover:scale-100">
+								<IconBrandReact color='#7cc5d9'/> React
 							</li>
 							<li className=" flex hover:-translate-y-1 hover:scale-100">
-								<img
-									className="h-6  sm:h-8 w-8"
-									src="github.png"
-									alt="logo de github"
-								/>
-								GitHub
+								<IconBrandGithub color='black'/> GitHub
 							</li>
-							<li className="hover:-translate-y-1 hover:scale-100">Tailwind</li>
+							<li className=" flex hover:-translate-y-1 hover:scale-100">
+								<IconBrandTailwind color='#3490dc'/> Tailwind</li>
 							<li className="flex hover:-translate-y-1 hover:scale-100">
-								<img
-									className="h-6 sm:h-8 w-8"
-									src="html.png"
-									alt="logo de html"
-								/>
+								<IconBrandHtml5 color='#F06529'/>
 								Html5
 							</li>
 							<li className="flex hover:-translate-y-1 hover:scale-100">
-								<img
-									className="h-4  sm:h-8 w-8"
-									src="css-3.png"
-									alt="logo de css"
-								/>
+								<IconBrandCss3 color='#2965f1'/>
 								Css3
 							</li>
-							<li className="hover:-translate-y-1 hover:scale-100">
-								Nodejs <b className="animate-ping">_</b>
+							<li className="flex hover:-translate-y-1 hover:scale-100"> <IconBrandNodejs color='#3c873a'/>
+								Nodejs <div><b className="animate-ping">_</b></div>
 							</li>
 						</ul>
 					</article>
@@ -117,13 +101,13 @@ export function About() {
 								📖 reading
 							</li>
 							<li className="py-1 hover:-translate-y-1 hover:scale-100">
-								🎦 movies
+								📽️ movies
 							</li>
-							<li className="py-1 hover:-translate-y-1 hover:scale-100">
-								♟️ chess
+							<li className=" flex py-1 hover:-translate-y-1 hover:scale-100">
+								<IconChessBishopFilled/> Chess
 							</li>
-							<li className="py-1 hover:-translate-y-1 hover:scale-100">
-								🎵 music<b className="animate-ping">_</b>
+							<li className="flex py-1 hover:-translate-y-1 hover:scale-100">
+								<IconMusicHeart/> music <div><b className="animate-ping">_</b></div>
 							</li>
 						</ul>
 					</article>

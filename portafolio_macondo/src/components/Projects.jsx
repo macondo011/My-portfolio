@@ -5,7 +5,8 @@ export function Projects() {
 	return (
 		<div
 			id="Projects"
-			className=" grid grid-cols-1 h-auto bg-gradient-to-r from-neutral-800  via-gray-800 to-neutral-950 mx-2 py-16 gap-4 border-dotted  border-r border-l md:grid-cols-2 pt-24"
+			className=" grid grid-cols-1 h-auto bg-gradient-to-r from-neutral-800  via-gray-800 to-neutral-950 
+						mx-2 py-16 gap-4 border-dotted  border-r border-l md:grid-cols-2 pt-24"
 		>
 			<aside>
 				<Laptop imageSrc={proyecto_1} />
