@@ -49,7 +49,7 @@ export function Home() {
 				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900' href='https://www.instagram.com/macondo011/' alt='logo de instagram' target="_blank" rel="noreferrer">
 				<IconBrandInstagram color='black' size={58}/>
 				</a>
-				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900' href='https://www.instagram.com/macondo011/' alt='logo de instagram' target="_blank" rel="noreferrer">
+				<a className='rounded-full border border-dashed p-2 bg-slate-700 opacity-50 hover:bg-slate-900' href='https://www.linkedin.com/in/marcos-bautista-2811942a1/' alt='logo de instagram' target="_blank" rel="noreferrer">
 				<IconBrandLinkedin color='black' size={58}/>
 				</a>
 			</div>

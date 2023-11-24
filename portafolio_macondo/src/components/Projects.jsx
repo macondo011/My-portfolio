@@ -1,5 +1,6 @@
 import { Laptop } from './Laptop'
 import proyecto_1 from '../images/project_1.jpg'
+import proyecto_2 from '../images/tetris-macondo.png'
 
 export function Projects() {
 	return (
@@ -35,11 +36,11 @@ export function Projects() {
 			</aside>
 
 			<aside>
-				<Laptop imageSrc={proyecto_1} />
-				<h4 className="text-center my-4 text-4xl">Project 1</h4>
+				<Laptop imageSrc={proyecto_2} />
+				<h4 className="text-center my-4 text-4xl">Project 2</h4>
 				<div className="text-center my-2 pb-2">
 					<a
-						href="https://prueba-tecnica-macondo01-ee4b4.web.app/"
+						href="https://macondo011.github.io/Tetris_macondo/"
 						target="_blank"
 						rel="noreferrer"
 						className=" border-2 rounded-full border-neutral-50 p-2 text-xl font-mono bg-slate-400 hover:bg-slate-500"
@@ -50,7 +51,7 @@ export function Projects() {
 
 				<div className="text-center my-4">
 					<a
-						href="https://github.com/macondo011/pruebas-tecnicas/tree/main/pruebas/01-reading-list/macondo011/app-books-list"
+						href="https://github.com/macondo011/Tetris_macondo"
 						target="_blank"
 						rel="noreferrer"
 						className="border-2 rounded-full border-neutral-50 p-2 text-xl font-mono bg-slate-400 hover:bg-slate-500"

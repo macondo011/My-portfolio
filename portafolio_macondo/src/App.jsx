@@ -10,12 +10,16 @@ import { Bubble } from './components/Bubble'
 function App() {
 	return (
 		<>
+		<header>
 			<Header />
+		</header>
 			<Home />
 			<Bubble/>
 			<About />
 			<Projects />
+		<footer>
 			<Footer />	
+		</footer>
 			
 		</>
 	)
