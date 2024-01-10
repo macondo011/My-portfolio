@@ -6,7 +6,7 @@ export function Footer() {
         
             <p className="flex justify-center  text-center text-xl py-6"> Created with &nbsp;<b className='animate-pulse text-2xl'>♥️ </b>&nbsp; by Marcos Bautista P. <br/>
             </p> 
-            <h5 className='justify-center text-center'>@2023</h5> 
+            <h5 className='justify-center text-center text-2xl'>@2024</h5> 
             
     </div>
   

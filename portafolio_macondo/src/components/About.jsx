@@ -47,33 +47,33 @@ export function About() {
 						</p>
 						<p className="text-lime pb-4">Proficient With</p>
 						<ul className="grid grid-cols-2 gap-4">
-							<li className="flex hover:-translate-y-1 hover:scale-100 gap-1">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandJavascript color='#F0DB4F'/>
 								JavaScript
 							</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 							<IconBrandTypescript color='#007acc'/> TypeScript
 							</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 							<IconBrandGit color='#F1502F'/> Git
 							</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandReact color='#7cc5d9'/> React
 							</li>
-							<li className=" flex hover:-translate-y-1 hover:scale-100">
+							<li className=" flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandGithub color='black'/> GitHub
 							</li>
-							<li className=" flex hover:-translate-y-1 hover:scale-100">
+							<li className=" flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandTailwind color='#3490dc'/> Tailwind</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandHtml5 color='#F06529'/>
 								Html5
 							</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100">
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2">
 								<IconBrandCss3 color='#2965f1'/>
 								Css3
 							</li>
-							<li className="flex hover:-translate-y-1 hover:scale-100"> <IconBrandNodejs color='#3c873a'/>
+							<li className="flex hover:-translate-y-1 hover:scale-100 gap-2"> <IconBrandNodejs color='#3c873a'/>
 								Nodejs <div><b className="animate-ping">_</b></div>
 							</li>
 						</ul>
@@ -103,10 +103,10 @@ export function About() {
 							<li className="py-1 hover:-translate-y-1 hover:scale-100">
 								📽️ movies
 							</li>
-							<li className=" flex py-1 hover:-translate-y-1 hover:scale-100">
+							<li className=" flex py-1 hover:-translate-y-1 hover:scale-100 gap-1">
 								<IconChessBishopFilled/> Chess
 							</li>
-							<li className="flex py-1 hover:-translate-y-1 hover:scale-100">
+							<li className="flex py-1 hover:-translate-y-1 hover:scale-100 gap-1">
 								<IconMusicHeart/> music <div><b className="animate-ping">_</b></div>
 							</li>
 						</ul>
